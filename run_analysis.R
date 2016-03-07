@@ -2,7 +2,6 @@ library(dplyr)
 library(stringr)
 
 # set home folder and create data folder if needed
-setwd("c:/users/cesar/onedrive/courses/clean data/finalproject")
 if(!file.exists("./data")){dir.create("./data")}
 
 #download data archive and store in ./data
